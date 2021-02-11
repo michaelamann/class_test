@@ -1,0 +1,29 @@
+
+# file path to folder
+cd /Users/michaelmann/Dropbox/Masters_Program/TA/Stakeholders/Git_example
+
+#initialize git
+git init 
+
+
+#lets make a file
+nano test_inclass.txt
+
+
+
+git add how_to_push.txt
+
+
+git commit -m "adding file in class"
+
+
+# add remote repository
+# git remote add <shortname> <url>
+
+# git remote origin https://github.com/michaelamann/class_test
+
+git remote -v
+
+
+git push origin main
+
